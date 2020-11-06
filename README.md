@@ -27,6 +27,8 @@ In order to run the code, you have to ensure that Flask is running. After you ge
 # 2. Getting App to Run on Heroku
 
 ## Step 1: Initialization
+1. Install the Heroku Command Line tools <a href="https://devcenter.heroku.com/articles/heroku-cli#download-and-install" target="_blank">Heroku CLI</a>:
+    * Mac: `brew tap heroku/brew && brew install heroku`
 1. Create a new app on Heroku by logging into the Heroku website and using the Web UI.
 1. Using the heroku command line client:
    * Go to your command line and login:<br> `heroku login -i`
